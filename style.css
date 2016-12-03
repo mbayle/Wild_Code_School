@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(255, 210, 166);
+}
+
+
+/* Header */
+
+#titre_principal h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-family: "Time New Romans", Arial, "Trebuchet MS", Serif;
+  color: red;
+}
+
+#titre_principal h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-family: "Time New Romans", Arial, "Trebuchet MS", Serif;
+  color: grey;
+  font-style: italic;
+}
+
+
+/* Slideshow */
+
+.slideshow {
+  margin: auto;
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+  border: 0px;
+}
+
+.slideshow ul {
+  width: 400%;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.slideshow li {
+  float: left;
+}
+
+
+/* Menus & Footer */
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 14px 0 0 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 15px;
+}
+
+a {
+  font-size: large;
+  color: #181818;
+  padding-bottom: 3px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #760001;
+  border-bottom: 3px solid #760001;
+}
+
+
+/* Tableau */
+
+table {
+  width: auto;
+  margin: auto;
+  border: 0px solid black;
+  text-align: justify;
+  padding: 5px;
+  margin-top: 15px
+}
+
+.picture {
+  width: auto;
+  border: 0px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+.text h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-family: "Time New Romans", Arial, "Trebuchet MS", Serif;
+  color: rgb(121, 11, 44);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.text {
+  width: auto;
+  border: 0px solid black;
+  padding: 15px;
+  text-align: justify;
+}

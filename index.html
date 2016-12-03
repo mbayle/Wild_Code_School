@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css"/>
+        <title>Wild circus</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+ 		<script type="text/javascript">
+   			$(function(){
+      			setInterval(function(){
+         			$(".slideshow ul").animate({marginLeft:-350},800,function(){
+         	$(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
+         			})
+      			}, 3500);
+   			});
+		</script>
+    </head>
+
+    <body>
+  		<header>
+    		<nav>
+      			<ul>
+        			<li><a href="#">NEWS</a></li>
+        			<li><a href="#">ARTISTS</a></li>
+        			<li><a href="#">DATES</a></li>
+        			<li><a href="#">BOOKING</a></li>
+        			<li><a href="#">DOWNLOAD</a></li>
+      			</ul>
+    		</nav>
+    		<div id="titre_principal">
+      			<h1>Wild circus</h1>
+      			<h2>Our work, Our passion</h2>
+    		</div>
+    		<div class="slideshow">
+      			<ul>
+        			<li><img src="https://c1.staticflickr.com/5/4039/4247856340_a62d6d9788_z.jpg?zz=1" alt="Tent" width="350" height="200" /></li>
+        			<li><img src="https://c1.staticflickr.com/9/8088/8501361702_d7cde0dc81_b.jpg" alt="Tiger" width="350" height="200" /></li>
+        			<li><img src="https://c1.staticflickr.com/5/4004/4694030414_05c300be48_b.jpg" alt="elephant" width="350" height="200" /></li>
+        			<li><img src="https://upload.wikimedia.org/wikipedia/commons/8/89/CJ_triple_trapeze_May.jpg" alt="Trapeze" width="350" height="200" /></li>
+      			</ul>
+    		</div>
+  		</header>
+
+  		<section>
+    		<table>
+      		<tr>
+        		<td class="picture"><img src="https://upload.wikimedia.org/wikipedia/en/5/58/Cavalia_mirror.jpg" alt="horse" width="330" height="200"/></td>
+        		<td class="picture"><img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Aerial_Ring_Performance.jpg" alt="hoop" width="330" height="200" /></td>
+        		<td class="picture"><img src="https://cdn.pixabay.com/photo/2016/01/22/18/02/gymnastics-1156350_960_720.jpg" alt="Gymnast" width="330" height="200" /></td>
+      		</tr>
+      		<tr class="text">
+        		<td class="text">
+          		<h2>Horse show</h2>
+          		<p>The show is the fundamental relationship that humans have developed with horses throughout time and to produce the purest form of art, one created through kindness, patience, and love.</p>
+          		<p>Delightful, thrilling and poignant, our horse show is a harmonious celebration of beauty and nature encompassing imagery that whisks the spectator’s imagination around the earth over land and sea. It's an epic equestrian adventure, transporting the audience into virtual environments.</p>
+        		</td>
+        		<td class="text">
+        		<h2>Aerial hoop</h2>
+          		<p>The piece began as a mirrored doubles hoop choreography, emulating the identical DNA of indentical twins. A soundscape combining music and voiceovers of scientists told how the environment experienced by identical twins can switch on and off genes, leading to individual people rather than clones. </p>
+          		<p>As this narrative developed we moved to synchronised silks, but moving through shapes and movements which can be interpreted differently, showing how the same genes can respond differently to outside stimuli.</p>
+        		</td>
+        		<td class="text">
+          		<h2>Acrobats</h2>
+          		<p>Red and Gold are the color of passion, energy, youth and hope for the future. Our performers in red confidently and dauntlessly pursue their dreams even in times of difficulty as demonstrated in this amazing human juggling act.</p>
+          		<p>In China, archeologists have unearthed sculptures from 2,300 years which depict ancient acrobats at work. Our acrobats recreate some of those 	ancient clay sculptures. An amazing show!</p>
+        		</td>
+      			</tr>
+    		</table>
+  		</section>
+
+  		<footer>
+    		<ul>
+      			<li><a href="#">ABOUT WILD CIRCUS</a></li>
+      			<li><a href="#">PRESS</a></li>
+      			<li><a href="mailto:contact_fictif@wildcircus.com">CONTACT</a></li>
+      			<li><a href="https://www.facebook.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" width="30" height="30" ></a></li>
+      			<li><a href="https://www.twitter.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Twitter_icon.png" width="30" height="30"></a></li>
+    			<li><a href="https://www.youtube.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/YouTube-like_logo.png" width="30" height="30"></a></li>
+    		</ul>
+  		</footer>
+	</body>
